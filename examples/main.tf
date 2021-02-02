@@ -1,7 +1,7 @@
 variable "do_token" {}
 
 variable "ssh_keys" {
-  type = "list"
+  type = list
 }
 
 provider "digitalocean" {
